@@ -1,0 +1,112 @@
+// підключили шрифт==============================================================
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:700&display=swap");
+// підключили шрифт==============================================================
+
+// зробили змінні для кольорів на сайті=========================================
+$mainFont: Manrope;
+$additionalFont:DM+Sans;
+// зробили змінні для кольорів на сайті=========================================
+
+
+//зробили сітку для адаптиву (брейкпоінти)=====================================
+[class*="__container"]{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+@media (max-width: 1099.98px ){
+    [class*="__container"] {
+        max-width: 970px;
+   }
+}
+@media (max-width: 991.98px){
+    [class*="__container"] {
+        max-width: 750px;
+   }
+}
+@media (max-width: 767.98px){
+    [class*="__container"] {
+        max-width: none;
+        padding: 0px 15px;
+   }
+}
+//зробили сітку для адаптиву (брейкпоінти)=====================================
+
+// загальні стилі для(основних тегів) body, main wrapper=====================================================
+body{
+    background: #fff;
+    font-family: $mainFont;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.page{
+    flex: 1 1 auto;
+}
+// загальні стилі для(основних тегів) body, main і wrapper====================================================
+
+//  технічні стилі============================================================================================
+._ibg{
+    position: relative;
+}
+._ibg img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+//  технічні стилі============================================================================================
+
+// =СЕКЦІЇ НА СТРАНИЦІ========================================================================================
+
+
+
+// =СЕКЦІЇ НА СТРАНИЦІ========================================================================================
+
+// =HEADER====================================================================================================
+.header {
+}
+.header__container {
+    min-height: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+}
+.logo {
+}
+.logo__link {
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 134%;
+}
+.header__nav {
+}
+.header__list {
+    display: flex;
+}
+.header__item {
+}
+.header__item:not(:last-child) {
+    margin-right: 46px;
+}
+.header__link {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 130%;
+}
+.header__link:hover {
+    text-decoration: underline;
+}
+// =HEADER====================================================================================================
