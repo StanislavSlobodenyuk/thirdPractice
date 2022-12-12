@@ -1075,10 +1075,79 @@ body._lock {
     margin-top: 60px;
   }
 }
-.contact-us_2 {
-  margin-top: 120px;
+.howDoWeWork {
+  margin: 120px 0;
 }
 
+.howDoWeWork__header {
+  margin-bottom: 180px;
+}
+
+.howDoWeWork__text {
+  color: #000000;
+  opacity: 0.5;
+}
+
+.howDoWeWork__swiper {
+  padding: 30px 70px;
+}
+
+.swiper-howDoWeWork__text {
+  font-size: 32px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.swiper-howDoWeWork__image img {
+  max-width: 100%;
+}
+
+.swiper-howDoWeWork .swiper-howDoWeWork__slide {
+  padding: 0px 0px 60px 0px;
+}
+
+.swiper-howDoWeWork .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(90, 88, 88);
+  color: #000;
+  font-size: 20px;
+}
+
+.swiper-howDoWeWork .swiper-pagination-bullet-active {
+  color: #fff;
+  background-color: #484A4A;
+}
+
+@media (max-width: 991.98px) {
+  .howDoWeWork {
+    margin: 100px 0;
+  }
+  .howDoWeWork__header {
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 767.98px) {
+  .howDoWeWork {
+    margin: 90px 0 30px;
+  }
+  .howDoWeWork__header {
+    margin-bottom: 90px;
+  }
+  .swiper-howDoWeWork__text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767.98px) and (min-width: 500.98px) {
+  .swiper-howDoWeWork__image img {
+    max-width: 50%;
+  }
+  .swiper-howDoWeWork__text {
+    max-width: 90%;
+  }
+}
 .stages-of-work {
   background-color: #484A4A;
   margin-bottom: 120px;
