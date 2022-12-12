@@ -767,9 +767,6 @@ body._lock{
 .howDoWeWork {
     margin: 120px 0;
 }
-.howDoWeWork__container{
-
-}
 .howDoWeWork__header {
     margin-bottom: 180px;
 }
@@ -822,14 +819,18 @@ body._lock{
     .swiper-howDoWeWork__text {
         font-size: 24px;
     }
-   @media (min-width: 500.98px) {
-        .swiper-howDoWeWork__image img {
-            max-width: 50%;
-        }
-        .swiper-howDoWeWork__text {
-            max-width: 90%;
-        }
-   }
+    .swiper-howDoWeWork__text {
+        max-width: 95%;
+    }   
+}
+@media (max-width: 550.98px) {
+    .swiper-howDoWeWork__image img {
+        max-width: 90%;
+    }
+    .swiper-howDoWeWork__text {
+        max-width: 100%;
+        font-size: 20px;
+    }
 }
 //========================================\\
 

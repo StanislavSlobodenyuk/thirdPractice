@@ -65,21 +65,21 @@ new Swiper('.swiper-howDoWeWork',{
     },
     // кількість слайдів для показу читатти там відключення функціоналу якщо слайдів менше чим порібно 
     watchOverflow: true,
-
+    spaceBetween: 40,
    // швидкість перемикання слайдів
    speed: 2000,
    
    breakpoints: {
     320: {
-        slidesPerView: 1.2,
         spaceBetween: 24,
     },
     500.98:{
         spaceBetween: 0,
+        slidesPerView: 1.2,
     },
     767: {
         slidesPerView: 2.2,
-        spaceBetween: 40,
+        
     },
     992: {
         slidesPerView: 3.2,
